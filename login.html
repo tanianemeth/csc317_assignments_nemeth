@@ -1,24 +1,31 @@
 <html>
  <head>
-    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+        <!-- <a class="navbar-brand" href="/">
+            <img class="img-fluid" src="https://img.icons8.com/clouds/100/000000/login-rounded-right.png" >
+        </a> -->
+
+    <!-- <title>Login Page</title> -->
 </head>
 
 <body>
-<form action="action_page.php" method="post">
+    <h2>Login Page  <img class="img-fluid" src="https://img.icons8.com/clouds/100/000000/login-rounded-right.png" ></h2><br> 
+    
+<form id="login" method="get" action="action_page.php">
   
     <div class="container">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
+      <label for="Uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="Uname" placeholder="Username" required>
   
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
+      <label for="Pass"><b>Password</b></label>
+      <input type="Password" id="Pass" placeholder="Enter Password" name="Pass" placeholder="Password" required>
   
       <button type="submit">Login</button>
     </div>
   
-    <div class="container" style="background-color:#f1f1f1">
+    <div class="container" style="background-color:#23463f">
       <button type="button" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
+      <span class="psw"><a href="#">Forgot password?</a></span>
     </div>
   </form>
 </body>
