@@ -19,6 +19,16 @@ body
   padding: 10px;
 
 }
+input[type=text], input[type=Password]{
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  width: 100%;
+  padding: 15px;
+  display: inline-block;
+  border: none;
+  border-radius: 25px;
+
+}
 /* .login{  
         width: 382px;  
         overflow: hidden;  

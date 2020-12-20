@@ -1,19 +1,28 @@
 <html>
+    <head> 
+        <link rel="stylesheet" type="text/css" href="post_image.css">
+    </head>
     <body>
         <form action="/action_page.php">
-            <h1>Post an Image</h1>
-       
+            <div class="container">
+            <h1>Post an Image </h1>
+    
+            <label for="caption"><b>Caption</b></label>
               <input type="text" placeholder="Write a caption" name="title" required>
               <label for="description"><b>Description</b></label>
               <input type="text" placeholder="Write a description" name="description" required>
-
-            <input type="file" id="myFile" name="filename">
+              <br>
+              <input type="file" id="myFile" name="filename">
+              <br>
+            
             <label>
                 <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> agree to accept Acceptable Use Policy for uploading images 
               </label>
-            
+         
+            <br>
             <input type="submit">
+        </div>
           </form>
-        <h1>Post an Image</h1>
+       
     </body>
 </html>

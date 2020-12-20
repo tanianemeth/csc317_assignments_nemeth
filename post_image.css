@@ -1,0 +1,42 @@
+
+.container {
+    padding: 15px;
+    color: rgb(11, 60, 33)
+  }
+body  
+{  
+    margin: 10;  
+    padding: 0;  
+    background-color:#2bb18eba;  
+    font-family: 'Arial, Helvetica';  
+}  
+
+input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #bbcec4;
+  }
+  input[type=file]{
+    padding: 10px;
+   
+
+  }
+
+  input[type=checkbox]{
+    padding: 15px;
+    margin: 5px 0 22px 0;
+
+  }
+  input[type=submit] {
+    border-radius: 25px;
+    width: 15%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #3167de;
+
+  }
