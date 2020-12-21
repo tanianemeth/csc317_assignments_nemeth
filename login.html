@@ -1,6 +1,7 @@
 <html>
  <head>
     <link rel="stylesheet" type="text/css" href="login.css">
+    <script type="text/javascript" src="login.js"></script>
         <!-- <a class="navbar-brand" href="/">
             <img class="img-fluid" src="https://img.icons8.com/clouds/100/000000/login-rounded-right.png" >
         </a> -->
@@ -11,16 +12,16 @@
 <body>
     <h2>Login Page  <img class="img-fluid" src="https://img.icons8.com/clouds/100/000000/login-rounded-right.png" ></h2><br> 
     
-<form id="login" method="get" action="action_page.php">
+<form id="login" onsubmit="validateForm()">
   
     <div class="container">
       <label for="Uname"><b>Username</b></label>
       <br>
-      <input type="text" placeholder="Enter Username" name="Uname" placeholder="Username" required>
+      <input type="text" placeholder="Enter Username" name="Uname" id="username" placeholder="Username" >
         <br>
       <label for="Pass"><b>Password</b></label>
       <br>
-      <input type="Password" id="Pass" placeholder="Enter Password" name="Pass" placeholder="Password" required>
+      <input type="Password" id="password" placeholder="Enter Password" name="Pass" placeholder="Password" >
   <br>
       <button type="submit">Login</button>
     </div>

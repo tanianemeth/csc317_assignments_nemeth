@@ -1,22 +1,23 @@
 <html>
     <head> 
         <link rel="stylesheet" type="text/css" href="post_image.css">
+        <script type="text/javascript" src="post_image.js"></script>
     </head>
     <body>
-        <form action="/action_page.php">
+        <form onsubmit="validateForm()">
             <div class="container">
             <h1>Post an Image </h1>
     
             <label for="caption"><b>Caption</b></label>
-              <input type="text" placeholder="Write a caption" name="title" required>
+              <input type="text" id="title" placeholder="Write a caption" name="title" >
               <label for="description"><b>Description</b></label>
-              <input type="text" placeholder="Write a description" name="description" required>
+              <input type="text" id="description" placeholder="Write a description" name="description" >
               <br>
-              <input type="file" id="myFile" name="filename">
+              <input type="file" id="file" name="filename">
               <br>
             
             <label>
-                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> agree to accept Acceptable Use Policy for uploading images 
+                <input type="checkbox" id="checkbox" name="remember" style="margin-bottom:15px" required> agree to accept Acceptable Use Policy for uploading images 
               </label>
          
             <br>
